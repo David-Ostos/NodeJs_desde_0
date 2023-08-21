@@ -1,4 +1,4 @@
-const path = require('node:path');
+const path = require('node:path')
 
 /**
  * es importante utilizar el path para poder unir rutas
@@ -8,7 +8,7 @@ const path = require('node:path');
 // como saber como la separaciond e las rutas
 console.log(path.sep)
 
-//unir rutas con path.join
+// unir rutas con path.join
 
 const filePath = path.join('content', 'subfolder', 'test.txt')
 console.log(filePath)

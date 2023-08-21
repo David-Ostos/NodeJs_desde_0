@@ -1,5 +1,5 @@
-/* commonJS require module*/
-const { sum } = require("./sum")
+/* commonJS require module */
+const { sum } = require('./sum')
 
 console.log(globalThis)
 
